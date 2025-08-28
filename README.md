@@ -1,16 +1,4 @@
-🌀 Reverse Proxy App - Project Overview
-📁 Project Structure
-.
-├── __pycache__/            # Python bytecode cache (ignored in most VCS)
-├── .dockerignore           # Files to exclude from Docker build context
-├── Dockerfile              # Instructions to build the Docker image
-├── README.md               # Project documentation
-├── app.py                  # Main Python application entry point
-├── deployment.yaml         # Kubernetes Deployment configuration
-├── docker-compose.yml      # Multi-container Docker application definition
-├── nginx.conf              # NGINX configuration for reverse proxy
-├── requirements.txt        # Python dependencies
-├── service.yaml            # Kubernetes Service configuration
+🌀 Reverse Proxy App - 📁 Project Overview
 
 ✅ Option 1: Run with docker-compose
 
