@@ -1,6 +1,9 @@
 🌀 Reverse Proxy App - 📁 Project Overview
 
+
+
 ✅ Option 1: Run with docker-compose
+
 
 ▶️ Run the App
 docker-compose up --build
@@ -13,6 +16,7 @@ docker-compose down
 
 
 ✅ Option 2: Run with Docker Only
+
 
 ▶️ Build App Image 
 docker build -t my-app-image .
@@ -30,6 +34,7 @@ docker run -d \
 
 
 ✅ Option 3: Run on Kubernetes
+
 
 ▶️ Apply Kubernetes Resources
 kubectl apply -f deployment.yaml
